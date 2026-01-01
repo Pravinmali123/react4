@@ -42,7 +42,7 @@ const handelesearch = () => {
 
 };
   return (
-     <div>
+     <div style={{marginTop:"120px"}}>
     <form onSubmit={formik.handleSubmit}>
       <input type="text" name="name" placeholder="Enter name" value={formik.values.name} onChange={formik.handleChange}
       />

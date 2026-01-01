@@ -21,7 +21,7 @@ const UseFormik = () => {
 
   return (
     <>
-        <form action="" onSubmit={f.handleSubmit}>
+        <form action="" onSubmit={f.handleSubmit} style={{marginTop:"120px"}}>
             <input type="text" name="name" value={f.values.name} id="" onChange={f.handleChange}/> <br /><br />
             <input type="text" name="surname" value={f.values.surname} id="" onChange={f.handleChange} /> <br /><br />
             <button type="submit">Submit</button>

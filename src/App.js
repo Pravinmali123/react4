@@ -11,14 +11,14 @@ import { Apidemo } from './Components/Apidemo';
 
 function App() {
   return (
-    <div>
-      {/* <Cruad /> */}
-      {/* <UseFormik></UseFormik> */}
-     {/* <Form /> */}
+    <div style={{margin:"30px"}}>
+      <Cruad />
+      <UseFormik></UseFormik>
+     <Form />
      <Formiktag />
-     {/* <Apicalling /> */}
-     {/* <Apidummy /> */}
-     {/* <Apidemo /> */}
+     <Apicalling />
+     <Apidummy />
+     <Apidemo />
     </div>
   );
 }

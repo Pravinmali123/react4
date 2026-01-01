@@ -45,7 +45,8 @@ function Formiktag (){
   setSearch('')
     }
     return(
-        <div>
+        <div style={{marginTop:"120px"}}>
+          <h2>Formik tag use CRUD</h2>
             <Formik initialValues = {ins}
             enableReinitialize
                 onSubmit={handlesubmit}>
